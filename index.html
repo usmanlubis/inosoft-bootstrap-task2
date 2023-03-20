@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Bootstrap Task1 - Usman Lubis</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+			crossorigin="anonymous"
+		/>
+		<style>
+			nav {
+				background-color: #e3f2fd;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<nav class="navbar navbar-expand-lg bg-body-tertiary">
+				<div class="container-fluid">
+					<a class="navbar-brand" href="#">Indonesiaku</a>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarNav"
+						aria-controls="navbarNav"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNav">
+						<ul class="navbar-nav">
+							<li class="nav-item">
+								<a class="nav-link" href="#">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#profil">Profil</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#sejarah">Sejarah</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#wisata">Wisata</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+
+		<main>
+			<h1 class="text-center m-2">Indonesiaku</h1>
+			<section class="container" id="profil">
+				<div id="carouselExampleDark" class="carousel carousel-dark slide">
+					<div class="carousel-indicators">
+						<button
+							type="button"
+							data-bs-target="#carouselExampleDark"
+							data-bs-slide-to="0"
+							class="active"
+							aria-current="true"
+							aria-label="Slide 1"
+						></button>
+						<button
+							type="button"
+							data-bs-target="#carouselExampleDark"
+							data-bs-slide-to="1"
+							aria-label="Slide 2"
+						></button>
+					</div>
+					<div class="carousel-inner">
+						<div class="carousel-item active" data-bs-interval="10000">
+							<img
+								src="./images/bendera.webp"
+								class="d-block w-100"
+								alt="Bendera Merah Putih"
+								height="500"
+							/>
+							<div class="carousel-caption d-none d-md-block">
+								<h5>Arti Bendera Indonesia</h5>
+								<p>
+									Makna filosofis bendera Indonesia berwarna merah artinya
+									berani, sedangkan putih artinya suci. Warna putih menjadi
+									simbol jiwa manusia, sementara merah melambangkan tubuh
+									manusia. Jadi, warna merah dan putih saling melengkapi satu
+									sama lain.
+								</p>
+							</div>
+						</div>
+						<div class="carousel-item" data-bs-interval="2000">
+							<img
+								src="./images/peta.webp"
+								class="d-block w-100"
+								height="500"
+								alt="Peta Wilayah Indonesia"
+							/>
+							<div class="carousel-caption d-none d-md-block">
+								<h5>Wilayah Indonesia</h5>
+								<p>
+									Indonesia merupakan negara kepulauan terbesar di dunia yang
+									berada di Asia Tenggara, dan terletak di antara benua Asia dan
+									benua Australia/Oseania, serta di antara Samudra Hindia dan
+									Samudra Pasifik.
+								</p>
+							</div>
+						</div>
+					</div>
+					<button
+						class="carousel-control-prev"
+						type="button"
+						data-bs-target="#carouselExampleDark"
+						data-bs-slide="prev"
+					>
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Previous</span>
+					</button>
+					<button
+						class="carousel-control-next"
+						type="button"
+						data-bs-target="#carouselExampleDark"
+						data-bs-slide="next"
+					>
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Next</span>
+					</button>
+				</div>
+			</section>
+			<section class="container-fluid bg-light py-2" id="sejarah">
+				<div class="row justify-content-center">
+					<div class="col-12 col-lg-10">
+						<h2 class="text-center mb-4">Sejarah Singkat Indonesia</h2>
+						<p class="text-center lead">
+							Indonesia adalah negara kepulauan yang terletak di Asia Tenggara.
+							Negara ini memiliki sejarah panjang yang meliputi masa
+							Hindu-Buddha, Kerajaan Islam, penjajahan Belanda, hingga
+							kemerdekaan pada tahun 1945.
+						</p>
+						<hr />
+						<h3>Masa Hindu-Buddha</h3>
+						<p>
+							Pada masa ini, Indonesia dipengaruhi oleh agama Hindu dan Buddha
+							dari India. Beberapa kerajaan Hindu-Buddha terkenal di Indonesia
+							antara lain Kerajaan Majapahit dan Sriwijaya.
+						</p>
+						<h3>Kerajaan Islam</h3>
+						<p>
+							Pada abad ke-13, agama Islam masuk ke Indonesia melalui pedagang
+							Arab dan India. Beberapa kerajaan Islam terkenal di Indonesia
+							antara lain Kerajaan Aceh dan Mataram Islam.
+						</p>
+						<h3>Penjajahan Belanda</h3>
+						<p>
+							Pada abad ke-17, Belanda mulai menjajah Indonesia. Penjajahan ini
+							berlangsung selama hampir 350 tahun dan berakhir pada tahun 1945
+							setelah Indonesia memproklamasikan kemerdekaannya.
+						</p>
+						<h3>Kemerdekaan</h3>
+						<p>
+							Pada tanggal 17 Agustus 1945, Indonesia memproklamasikan
+							kemerdekaannya dari penjajahan Belanda. Setelah mengalami berbagai
+							tantangan dan perjuangan, Indonesia berhasil meraih kemerdekaannya
+							dan menjadi negara yang merdeka dan berdaulat.
+						</p>
+					</div>
+				</div>
+			</section>
+
+			<section class="container-fluid mt-4" id="wisata">
+				<h2 class="mb-2 text-center">Wisata di Indonesia</h2>
+				<div class="row justify-content-center gap-4">
+					<div class="card col-xs-12 col-sm-5 col-lg-3">
+						<img
+							src="./images/kuta.jpg"
+							class="card-img-top p-2"
+							alt="Pantai Kuta"
+							height="210px"
+						/>
+						<div class="card-body">
+							<h5 class="card-title">Pantai Kuta</h5>
+							<p class="card-text">
+								Pantai Kuta ada;ah salah satu pantai yang paling terkenal dan
+								sangat sering dikunjungi oleh wisatawan lokal maupun
+								internasional. Pantai Kuta terletak di Bali
+							</p>
+						</div>
+					</div>
+					<div class="card col-xs-12 col-sm-5 col-lg-3">
+						<img
+							src="./images/komodo.jpg"
+							class="card-img-top p-2"
+							alt="Pulau Komodo"
+							height="210px"
+						/>
+						<div class="card-body">
+							<h5 class="card-title">Pulau Komodo</h5>
+							<p class="card-text">
+								Pulau Komodo adalah salah satu tujuan wisata terkenal karena
+								disamping keindahannya juga menjadi habitat bagi hewan purba
+								yaitu Komodo Dragon
+							</p>
+						</div>
+					</div>
+					<div class="card col-xs-12 col-sm-5 col-lg-3">
+						<img
+							src="./images/raja-ampat.jpg"
+							class="card-img-top p-2"
+							alt="Raja Ampat"
+							height="210px"
+						/>
+						<div class="card-body">
+							<h5 class="card-title">Raja Ampat</h5>
+							<p class="card-text">
+								Raja Ampat merupakan gugusan pulau yang terletak di Papua Barat,
+								dengan pantainya yang jernih dan indah menjadikan raja ampat
+								sebagai salah satu tujuan wisata favorit
+							</p>
+						</div>
+					</div>
+					<div class="card col-xs-12 col-sm-5 col-lg-3">
+						<img
+							src="./images/toraja.jpg"
+							class="card-img-top p-2"
+							alt="Tana Toraja"
+							height="210px"
+						/>
+						<div class="card-body">
+							<h5 class="card-title">Tana Toraja</h5>
+							<p class="card-text">
+								Tana Toraja adalah salah satu kabupaten yang terletak di
+								Sulawesi Selatan, tana toraja mampu menarik perhatisn wisatawan
+								berkat kebudayaannya yang unik dibandingkan dengan kebudayaan
+								lain di Indonesia
+							</p>
+						</div>
+					</div>
+					<div class="card col-xs-12 col-sm-5 col-lg-3">
+						<img
+							src="./images/bunaken.jpg"
+							class="card-img-top p-2"
+							alt="Taman Nasional Bunaken"
+							height="210px"
+						/>
+						<div class="card-body">
+							<h5 class="card-title">Taman Nasional Bunaken</h5>
+							<p class="card-text">
+								Taman Nasional Bunaken adalah wisat bawah laut yang
+								menghadiarkan keindahan bawah laut dengan air yang jernih dan
+								beragam biota laut yang indah, daya tarik utamanya dalah
+								struktur terumbu karang yang masih sangat terjaga dengan baik
+							</p>
+						</div>
+					</div>
+					<div class="card col-xs-12 col-sm-5 col-lg-3">
+						<img
+							src="./images/wakatobi.jpg"
+							class="card-img-top p-2"
+							alt="Pantai Kuta"
+							height="210px"
+						/>
+						<div class="card-body">
+							<h5 class="card-title">Kabupaten wakatobi</h5>
+							<p class="card-text">
+								Wakatobi menawarkan pesona keindahan pantai yang luar biasa bagi
+								siapa saja yang mengunjunginya. Tak kalah dengan Bunaken,
+								Wakatobi juga memiliki biota laut yang memanjakan mata bagi
+								siapa saja yang melihatnya.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="bg-dark text-light py-3 mt-4">
+			<div class="container">
+					<div class="text-center">
+						<p>&copy; 2023 Usman Lubis. All rights reserved.</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
